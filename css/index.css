@@ -45,7 +45,7 @@ header nav ul{
 
 
 a{
-    color: rgb(30, 27, 38);
+    color: rgb(210, 203, 228);
     text-decoration: none;
 
 }
@@ -57,7 +57,7 @@ a:hover{
 
 
 .bg.oscuro{
-    color: #2478cc;
+    color: #dac6c6;
 }
 
 .section-primero{
@@ -98,7 +98,7 @@ a:hover{
     font-size: 30px;
     padding: 10px;
     text-align: center;
-    color: rgb(48, 107, 162);
+    color: rgb(24, 35, 44);
  
 }
 
@@ -161,21 +161,27 @@ a:hover{
 }
 
 /*footer*/
-footer{
-    background-color: #eaebe6;
-    padding: 20px;
+
+.footer {
+  background-color: #7e9ab2;
+  color: #ffffff;
+  padding: 30px 0;
+  margin-top: 50px;
 }
 
-footer ul{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-footer ul li{
-    list-style: none;
+.footer li {
+  margin-bottom: 10px;
 }
 
-
+@media (max-width: 767px) {
+  .footer .col-lg-4,
+  .footer .col-md-4 {
+    margin-bottom: 30px;
+  }
+}
 
