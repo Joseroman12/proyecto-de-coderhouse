@@ -1,0 +1,132 @@
+main{
+    a{
+        color: rgb(210, 203, 228);
+        text-decoration: none;
+    
+        a:hover{
+            color: rgb(234, 0, 167);
+            transition: all 0.3s ease-in-out;
+        }
+        
+    
+    }
+    
+    .bg.oscuro{
+        color: #dac6c6;
+    }
+
+    .btn{
+        background-color: rgb(46, 113, 181);
+        color: white;
+    }
+    .bg{
+        background-color: rgb(25, 24, 24);
+    }
+    
+
+.carousel-inner img{
+    max-height: 85vh;
+    object-fit: cover;
+}
+    
+
+.titulo{
+  
+    background-color: rgb(141, 78, 26);
+    width: 1364px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(24, 35, 44);
+ 
+}
+ 
+.casamodernas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(18, 98, 172);
+
+}
+
+.casamoderna2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(62, 137, 207);
+
+}
+.servicio1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(62, 137, 207);
+}
+
+
+
+.section-imagen img{
+
+    max-width: 100%;
+
+}
+
+.imagen-mas{
+
+    max-width: 100px;
+}
+
+.imagencasablanca{
+    height: 1000;
+    width: 920;
+}
+
+.casa-golf-blanca{
+
+    position: relative;
+
+}
+
+.seccionDelContendor4 h2 {
+  margin-bottom: 8%;
+    text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

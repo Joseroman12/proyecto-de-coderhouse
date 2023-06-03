@@ -1,187 +1,128 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
+@charset "UTF-8";
+header .navbar a:hover {
+  color: #0488ec;
+  padding: 10px;
+  background-color: #63679e;
+  text-align: center;
+  color: #0091ff;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+main a {
+  color: #d2cbe4;
+  text-decoration: none; }
+  main a a:hover {
+    color: #ea00a7;
+    transition: all 0.3s ease-in-out; }
 
+main .bg.oscuro {
+  color: #dac6c6; }
 
+main .btn {
+  background-color: #2e71b5;
+  color: white; }
 
+main .bg {
+  background-color: #191818; }
 
-header nav ul{
-    padding: 10px;
-    
-    text-align: center;
-    color: rgb(230, 12, 12);
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; 
-    
-    
-  }  
+main .carousel-inner img {
+  max-height: 85vh;
+  object-fit: cover; }
 
- .navbar a:hover{
-    color: rgb(4, 136, 236);
-    padding: 10px;
-    background-color: rgb(99, 103, 158);
-    text-align: center;
-    color: rgb(0, 145, 255);
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; 
-    
-    
-  }
-    
+main .titulo {
+  background-color: #8d4e1a;
+  width: 1364px; }
 
+main .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  color: #18232c; }
 
+main .casamodernas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  color: #1262ac; }
 
-a{
-    color: rgb(210, 203, 228);
-    text-decoration: none;
+main .casamoderna2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  color: #3e89cf; }
 
-}
+main .servicio1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  color: #3e89cf; }
 
-a:hover{
-    color: rgb(234, 0, 167);
-    transition: all 0.3s ease-in-out;
-}
+main .section-imagen img {
+  max-width: 100%; }
 
+main .imagen-mas {
+  max-width: 100px; }
 
-.bg.oscuro{
-    color: #dac6c6;
-}
+main .imagencasablanca {
+  height: 1000;
+  width: 920; }
 
-.section-primero{
-    background-color: red;
-}
+main .casa-golf-blanca {
+  position: relative; }
 
-
-/*carousel*/
-
-.carousel-inner img{
-    max-height: 85vh;
-    object-fit: cover;
-}
-
-
-
-
-
-
-
-
-.titulo{
-  
-    background-color: rgb(141, 78, 26);
-    width: 1364px;
-}
-
-
-.lorem{
-    color: yellow;
-}
-
-
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    color: rgb(24, 35, 44);
- 
-}
-
-.casamodernas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    color: rgb(18, 98, 172);
-
-}
-
-.casamoderna2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    color: rgb(62, 137, 207);
-
-}
-.servicio1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    color: rgb(62, 137, 207);
-}
-
-
-
-.section-imagen img{
-
-    max-width: 100%;
-
-}
-
-.imagen-mas{
-    height: 678px;
-    max-width: 100px;
-}
-
-.imagencasablanca{
-    height: 1000;
-    width: 920;
-}
-
-.casa-golf-blanca{
-
-    position: relative;
-
-}
+main .seccionDelContendor4 h2 {
+  margin-bottom: 8%;
+  text-align: center; }
 
 /*footer*/
+footer {
+  background-color: #6995fa;
+  padding: 20px; }
+  footer .container {
+    max-width: 960px;
+    margin: 0 auto; }
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  footer .footer-section {
+    flex: 1; }
+  footer p {
+    margin: 0; }
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  footer li {
+    margin-bottom: 10px; }
+  footer li a {
+    text-decoration: none;
+    color: #ffffff; }
+  footer .social-media li {
+    display: inline-block;
+    margin-right: 10px; }
 
-.footer {
-  background-color: #7e9ab2;
-  color: #ffffff;
-  padding: 30px 0;
-  margin-top: 50px;
-}
-
-.footer ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.footer li {
-  margin-bottom: 10px;
-}
-
-@media (max-width: 767px) {
-  .footer .col-lg-4,
-  .footer .col-md-4 {
-    margin-bottom: 30px;
-  }
-}
-
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start; }
+  .footer-section {
+    margin-bottom: 20px; } }
